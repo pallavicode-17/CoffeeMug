@@ -1,0 +1,265 @@
+*{
+	margin:0;
+	padding:0;
+}
+@font-face{
+	font-family:ocraextended;
+	src:url('OCRAEXT.TTF');
+}
+.container{
+	width:1200px;
+	height:auto;
+	min-height:1000px;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+.menu{
+	width:1200px;
+	height:90px;
+	box-sizing:border-box;
+	
+}
+.logo{
+	float:left;
+	width:100px;
+	margin-left:100px;
+	height:80px;
+	margin-top:30px;
+}
+.logo img{
+	width:100px;
+	height:40px;
+}
+.navmenu{
+	float:left;
+	width:900px;
+	margin-right:90px;
+	height:120px;
+}
+
+.navmenu nav{
+	height:60px;
+	margin-top:50px;
+}
+
+.navmenu nav ul li{
+	display:inline-block;
+	margin-left:50px;
+	padding-left:50px;
+}
+.navmenu nav ul li a{
+	text-decoration:none;
+	padding-bottom:5px;
+	font-family:ocraextended;
+	font-weight:800;
+	color:black;
+	
+}
+.active{
+	border-bottom:7px solid #b5d8b3;
+}
+.content{
+	width:1200px;
+	background-color:#b5d8b3;
+	background-image:url("banner.png");
+	background-repeat:no-repeat;
+	background-size:1200px 600px;
+}
+@font-face{
+	font-family:StardosStencilbold;
+	src:url('StardosStencil-Bold.ttf')
+}
+.coffee_title{
+	width:500px;
+	margin-left:100px;
+	padding-top:80px;
+}
+.coffee_title h1{
+	font-family:StardosStencilbold;
+	padding:10px;
+	margin-bottom:20px;
+	width:300px;
+	font-size:60px;
+	background-color:white;
+	
+}
+.coffee_title span{
+	font-family:StardosStencilbold;
+	display:block;
+	width:400px;
+	font-size:40px;
+	color:white;
+}
+.coffee_title p{
+	font-family:ocraextended;
+	padding:10px;
+	margin-bottom:20px;
+	width:400px;
+	font-size:16px;
+	color:black;
+	
+}
+.coffee_title button{
+	background-color:black;
+	padding:20px;
+	color:white;
+	text-align:center;
+	border-radius:10px;
+	
+}
+.aboutus{
+	width:1200px;
+	height:800px;
+	min-height:600px;
+	background-color:#b5d8b3;
+}
+.right_top_image_aboutus{
+	position:relative;
+	height:127px;
+	left:1px;
+	width:309px;
+	float:right;
+	background-image:url('about_right_top.png');
+	background-repeat:no-repeat;
+}
+.left_image{
+	width:600px;
+	height:600px;
+	padding-top:50px;
+	position:relative;
+}
+.cookingimage{
+	height:300px;
+	width:600px;
+	padding-top:20px;
+	background-image:url('shafe_clerk.jpg');
+	z-index:0;
+}
+.coffeeimage{
+	height:300px;
+	width:300px;
+	position:absolute;
+	left:330px;
+	top:300px;
+	z-index:1;
+	background-image:url('coffee.jpg');
+	background-size:cover;
+}
+.whitedots{
+	height:236px;
+	width:300px;
+	position:absolute;
+	left:127px;
+	top:315px;
+	z-index:2;
+	background-image:url('white_dotted.png');
+	background-repeat:no-repeat;
+}
+.about h1{
+	font-family: StardosStencilbold;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 92px;
+    width: 240px;
+    text-align: center;
+    height: 45px;
+    font-size: 39px;
+    background-color: white;
+	
+}
+.about p{
+	font-family: ocraextended;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    width: 370px;
+    font-size: 16px;
+    color: black;
+}
+.about button{
+	background-color:black;
+	padding:20px;
+	color:white;
+	text-align:center;
+	border-radius:10px;
+	margin-left: 150px;
+
+	
+}
+.rightcontent{
+	    position: absolute;
+    top: 690px;
+    margin-left: 777px;
+    width: 417px;
+}
+.splash{
+	background-image:url('coffee_splash.png');
+	
+    height: 247px;
+    margin-left: 126px;
+    margin-top: 40px;
+}
+.content_third{
+	width:1200px;
+	height:800px;
+	min-height:600px;
+	background-color:#b5d8b3;
+     
+      border: 8px solid #fff;
+      border-radius: 10px;
+      display: flex;
+      
+
+	
+}
+.right-cont-image{
+	background-image:url('side_img.png');
+	background-repeat: no-repeat;
+	position :absolute;
+	top:213%;
+	 width: 120px;
+      height: 570px;
+	  
+}
+.right_cont{
+	float:right;
+	
+}
+.left_cont{
+	float:left;
+}
+.cup_tea{
+	background-image:url('cup_tea.png');
+	width:460px;
+	height:560px;
+}
+.gift h1{
+	font-family: StardosStencilbold;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 92px;
+    width: 240px;
+    text-align: center;
+    height: 45px;
+    font-size: 39px;
+    background-color: white;
+	
+}
+.gift p{
+	font-family: ocraextended;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+    width: 370px;
+    font-size: 16px;
+    color: black;
+	
+}
+.gift button{
+	background-color:black;
+	padding:20px;
+	color:white;
+	text-align:center;
+	border-radius:10px;
+	margin-left: 150px;
+}
